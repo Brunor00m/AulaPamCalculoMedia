@@ -12,6 +12,8 @@
         android:id="@+id/nota1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="48dp"
         android:background="#AFABAB"
         android:gravity="center"
         android:hint="nota1"
@@ -19,12 +21,8 @@
         android:maxLength="2"
         android:padding="20dp"
         android:text=""
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="50dp"
-         />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/nota2"
@@ -47,8 +45,8 @@
         android:id="@+id/nota3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
         android:background="#AFABAB"
         android:gravity="center"
         android:hint="nota3"
@@ -81,8 +79,8 @@
         android:id="@+id/freq"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="140dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="136dp"
         android:background="#AFABAB"
         android:gravity="center"
         android:hint="Frequencia"
@@ -99,7 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/freq"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#3291E2"
         android:padding="20dp"
         android:text="Calcular"
@@ -115,12 +113,13 @@
         android:id="@+id/txt_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:text="Aluno foi Aprovado"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="50dp"
         app:layout_constraintTop_toBottomOf="@id/btn_calcular" />
 
 
